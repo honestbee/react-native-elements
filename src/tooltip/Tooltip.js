@@ -120,6 +120,7 @@ class Tooltip extends React.PureComponent {
     return (
       <View>
         <View
+          pointerEvents="none"
           style={{
             position: 'absolute',
             top: yOffset,
